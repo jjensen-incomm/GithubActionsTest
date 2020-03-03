@@ -15,7 +15,7 @@ jobs:
       with:
         step: start
         token: ${{ secrets.GITHUB_TOKEN }}
-        env: test
+        env: qa
     - name: Do Deployment
       run: |
         echo Add other actions to build,
